@@ -2,7 +2,7 @@
 <html class="mdc-typography">
   <head>
     <meta charset="utf-8">
-    <link rel='manifest' href='./manifest.json'>
+    <link rel="manifest" href="/manifest.json">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>PWA Basic</title>
   </head>
@@ -10,7 +10,8 @@
 
 
   <h1>Hello World</h1>
-  <p>Ez Pz Lemin squeezy</p>
+    <p>Today is Monday 2/18</p>
+
     <script>
         // register the service worker for offline use
         if('serviceWorker' in navigator) {
@@ -18,7 +19,6 @@
                    .register('./sw.js')
                    .then(function() { console.log("Service Worker Registered"); });
         }
-
     </script>
   </body>
 </html>
